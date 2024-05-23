@@ -2,11 +2,11 @@
     {
         "name": "20240523-news-author1-hello_again",
         "title": "Hello again",
-        "contents": "Sample contents 2"
+        "introduction": "Sample contents 2"
     },
     {
         "name": "20240523-news-author1-welcome_to_new_website",
         "title": "Welcome to new website",
-        "contents": "Sample contents 1"
+        "introduction": "Sample contents 1"
     }
 ]
