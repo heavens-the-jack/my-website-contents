@@ -1,12 +1,29 @@
 [
-    {
-        "name": "20240523-news-author1-hello_again",
-        "title": "Hello again",
-        "introduction": "Sample contents 2"
-    },
-    {
-        "name": "20240523-news-author1-welcome_to_new_website",
-        "title": "Welcome to new website",
-        "introduction": "Sample contents 1"
-    }
+  {
+    "id": "2024/20240525-this_is_third_article.md",
+    "title": "This is third article",
+    "intro": "This is third article.",
+    "category": "news",
+    "author": "author1",
+    "created_at": "2024-05-25T12:23:45Z",
+    "updated_at": ""
+  },
+  {
+    "id": "2024/20240524-hello_again.md",
+    "title": "Hello again",
+    "intro": "This is the contents of hello again article.",
+    "category": "news",
+    "author": "author1",
+    "created_at": "2024-05-24T12:23:46Z",
+    "updated_at": ""
+  },
+  {
+    "id": "2024/20240523-welcome_to_new_website.md",
+    "title": "Welcome to new website",
+    "intro": "Introduction of our new website.",
+    "category": "news",
+    "author": "author1",
+    "created_at": "2024-05-23T12:23:45Z",
+    "updated_at": ""
+  }
 ]
