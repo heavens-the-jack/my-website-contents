@@ -1,6 +1,6 @@
 [
   {
-    "id": "2024/20240525-this_is_third_article.md",
+    "id": "2024/20240525-this_is_third_article",
     "title": "This is third article",
     "intro": "This is third article.",
     "category": "news",
@@ -9,7 +9,7 @@
     "updated_at": ""
   },
   {
-    "id": "2024/20240524-hello_again.md",
+    "id": "2024/20240524-hello_again",
     "title": "Hello again",
     "intro": "This is the contents of hello again article.",
     "category": "news",
@@ -18,7 +18,7 @@
     "updated_at": ""
   },
   {
-    "id": "2024/20240523-welcome_to_new_website.md",
+    "id": "2024/20240523-welcome_to_new_website",
     "title": "Welcome to new website",
     "intro": "Introduction of our new website.",
     "category": "news",
