@@ -24,12 +24,12 @@ jobs:
       #     message: 'Update posts/index.json'
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Ruby
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'
+          ruby-version: '3.3'
       - name: Run a ruby script
         run: ruby lib/gen_index_json.rb
 
