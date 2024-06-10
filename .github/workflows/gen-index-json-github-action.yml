@@ -25,9 +25,9 @@ jobs:
           add: 'posts'
           author_name: heavens-the-jack
           author_email: heavens.the.jack@gmail.com
-          commit: --signoff
-          committer_name: heavens-the-jack
-          committer_email: heavens.the.jack@gmail.com
-          fetch: false
+          # commit: --signoff
+          # committer_name: heavens-the-jack
+          # committer_email: heavens.the.jack@gmail.com
+          # fetch: false
           message: 'Update posts/index.json'
 
