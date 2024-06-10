@@ -1,15 +1,17 @@
 name: gen-index-json-github-action
 run-name: ${{ github.actor }} is running GitHub Actions
-on: [push]
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   gen-index-json:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: .
-    steps:
-      - name: Run a ruby script
-        run: ruby lib/gen_index_json.rb
+    # steps:
+    #   - name: Run a ruby script
+    #     run: ruby lib/gen_index_json.rb
       # - uses: EndBug/add-and-commit@v9.1.4
       #   with:
       #     add: 'posts'
@@ -20,3 +22,14 @@ jobs:
       #     committer_email: heavens.the.jack@gmail.com
       #     fetch: false
       #     message: 'Update posts/index.json'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+      - name: Run a ruby script
+        run: ruby lib/gen_index_json.rb
+
