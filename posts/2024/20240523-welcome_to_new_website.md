@@ -6,11 +6,6 @@ author: "author1"
 created_at: "2024-05-23T12:23:45Z"
 updated_at: ""
 ---
-
-# Welcome to new website
-
-by author1 at 2024-05-23T12:23:45Z
-
 ## Sub title
 
 This is paragraph of the article.
