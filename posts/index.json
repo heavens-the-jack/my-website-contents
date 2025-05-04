@@ -1,6 +1,6 @@
 [
   {
-    "id": "20240623-japanse-article",
+    "github_id": "20240623-japanse-article",
     "title": "ようこそ新しいWebサイトへ",
     "intro": "新しいWebサイトのご紹介です。",
     "category": "news",
@@ -9,7 +9,7 @@
     "updated_at": ""
   },
   {
-    "id": "20240525-this_is_third_article",
+    "github_id": "20240525-this_is_third_article",
     "title": "This is third article",
     "intro": "This is third article.",
     "category": "news",
@@ -18,7 +18,7 @@
     "updated_at": "2024-06-10T21:26:00Z"
   },
   {
-    "id": "20240524-hello_again",
+    "github_id": "20240524-hello_again",
     "title": "Hello again",
     "intro": "This is the contents of hello again article.",
     "category": "news",
@@ -27,7 +27,7 @@
     "updated_at": ""
   },
   {
-    "id": "20240523-welcome_to_new_website",
+    "github_id": "20240523-welcome_to_new_website",
     "title": "Welcome to new website",
     "intro": "Introduction of our new website.",
     "category": "news",
