@@ -44,7 +44,7 @@ module GenIndexJson
       body = read_md(year, filename)
       raw_frontmatter, raw_contents = split(body)
       frontmatter = parse_frontmatter(raw_frontmatter)
-      frontmatter = insert_id(frontmatter, "#{year}/#{filename}")
+      frontmatter = insert_github_id(frontmatter, "#{year}/#{filename}")
 
       @posts << { frontmatter: frontmatter, contents: raw_contents }
     end
@@ -68,8 +68,8 @@ module GenIndexJson
       YAML.load(raw_frontmatter)
     end
 
-    def insert_id(frontmatter, id)
-      { id: id[5 ..].sub(/\.md$/, "") }.merge(frontmatter)
+    def insert_github_id(frontmatter, id)
+      { github_id: id[5 ..].sub(/\.md$/, "") }.merge(frontmatter)
     end
 
     def to_json
